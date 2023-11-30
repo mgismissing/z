@@ -13,6 +13,11 @@ header {
 	text-align: center;
 }
 
+header h1 a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
 div.videos {
 	justify-content: center;
 	align-items: center;
