@@ -27,9 +27,9 @@ div.videos video {
 	margin: 20px auto;
 	border-radius: 10px;
 	background-color: #000000;
-	width: 480px;
+	width: 960px;
 	max-width: 960px;
-	height: 360px;
+	height: 720px;
 	max-height: 720px;
 }
 
@@ -51,7 +51,7 @@ div.videos p a:hover {
 }
 
 div.videos p {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 footer {
