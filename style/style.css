@@ -1,13 +1,14 @@
 body {
-	background-color: #1a1a1a; /* Dark background color */
-	color: #ffffff; /* Light text color */
+	background-color: #1a1a1a;
+	color: #ffffff;
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
 header {
-	background-color: #333333; /* Dark header background color */
+	background-color: #333333;
 	padding: 10px;
 	text-align: center;
 }
@@ -22,8 +23,6 @@ div.videos {
 }
 
 div.videos video {
-	width: 480px;
-	height: 360px;
 	display: block;
 	margin: 20px auto;
 	border-radius: 10px;
@@ -31,11 +30,23 @@ div.videos video {
 }
 
 div.videos p.eov {
+	padding-bottom: 60px;
+}
+
+div.videos p a {
+	color: #ffffff;
+}
+
+div.videos p a:hover {
+	color: #dddddd;
+}
+
+div.videos p {
 	padding-bottom: 30px;
 }
 
 footer {
-	background-color: #333333; /* Dark footer background color */
+	background-color: #333333;
 	padding: 10px;
 	text-align: center;
 	position: fixed;
@@ -43,21 +54,6 @@ footer {
 	width: 100%;
 }
 
-/* Dark mode toggle button styling */
-#darkModeToggle {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	cursor: pointer;
-}
-
-/* Light mode styles */
-body.light-mode {
-	background-color: #ffffff;
-	color: #333333;
-}
-
-body.light-mode header,
-body.light-mode footer {
-	background-color: #f0f0f0;
+.separator {
+	padding-bottom: 60px;
 }
