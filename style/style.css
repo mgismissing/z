@@ -1,0 +1,63 @@
+body {
+	background-color: #1a1a1a; /* Dark background color */
+	color: #ffffff; /* Light text color */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333333; /* Dark header background color */
+	padding: 10px;
+	text-align: center;
+}
+
+div.videos {
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+div.videos video {
+	width: 480px;
+	height: 360px;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+div.videos p.eov {
+	padding-bottom: 30px;
+}
+
+footer {
+	background-color: #333333; /* Dark footer background color */
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Dark mode toggle button styling */
+#darkModeToggle {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+/* Light mode styles */
+body.light-mode {
+	background-color: #ffffff;
+	color: #333333;
+}
+
+body.light-mode header,
+body.light-mode footer {
+	background-color: #f0f0f0;
+}
