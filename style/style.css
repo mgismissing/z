@@ -9,7 +9,7 @@ body {
 
 header {
 	background-color: #333333;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
 }
 
@@ -27,6 +27,15 @@ div.videos video {
 	margin: 20px auto;
 	border-radius: 10px;
 	background-color: #000000;
+	width: 480px;
+	max-width: 960px;
+	height: 380px;
+	max-height: 720px;
+}
+
+div.videos video.fullsize {
+	width: 960px;
+	height: 720px;
 }
 
 div.videos p.eov {
